@@ -66,7 +66,7 @@ export default function Home() {
     <Suspense>
       <div className="flex flex-col lg:flex-row max-h-screen min-h-screen bg-default-50">
         {/* Sidebar for large screens, hidden on smaller screens */}
-        <div className="hidden lg:block lg:w-1/4">
+        <div className="hidden lg:block">
           <SideBar
             bookshelves={bookshelves}
             setSelectedShelf={setSelectedShelf}
@@ -103,7 +103,7 @@ export default function Home() {
           </div>
         )}
 
-        <div className="flex flex-col w-full lg:w-3/4">
+        <div className="flex flex-col w-full">
           {/* Navigation bar always visible */}
           <NavigationBar setSearchItem={setSearchItem} />
 
