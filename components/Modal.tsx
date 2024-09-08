@@ -29,7 +29,7 @@ export default function ModalComponent({ bookId, isOpen, onClose }: ModalCompone
       size="sm" 
       isOpen={isOpen} 
       onClose={onClose}
-      className="fixed right-0 top-0 bottom-0 w-1/3 mt-0 h-full m-0 overflow-y-scroll"
+      className="fixed right-0 top-0 bottom-0 md:w-1/3 mt-0 h-full m-0 overflow-y-scroll"
     >
       <ModalContent>
         <>
