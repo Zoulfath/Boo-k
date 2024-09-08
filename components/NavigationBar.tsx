@@ -19,8 +19,8 @@ export default function NavigationBar({setSearchItem}: any) {
 
 
   return (
-    <Navbar className="min-h-20 border-b px-8 flex justify-between w-full bg-white">
-      <div className="flex w-1/3">
+    <Navbar className="min-h-20 border-b px-2 md:px-8 flex justify-between w-full bg-white">
+      <div className="flex w-full md:w-1/3">
         <NavbarContent className="">
           <Input
             value={searchItem}
